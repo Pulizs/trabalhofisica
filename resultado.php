@@ -10,6 +10,7 @@
     }
 
     $rendimento = calcularRendimento($Qq, $Qf);
-    echo $rendimento + "%";
+    echo $rendimento;
+    echo "%";
 
 ?>
