@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
         return $rendimento;
     }
 
-    echo $rendimento = calcularRendimento($Qq, $Qf);
+    
 }
 
 
@@ -60,7 +60,7 @@ if (isset($_POST['submit'])) {
 
         <label for="resultadp">Resultado:</label>
         <?php if (isset($rendimento)){
-            echo $rendimento;
+           echo $rendimento = calcularRendimento($Qq, $Qf);
             } ?>
     </div>
 </body>
