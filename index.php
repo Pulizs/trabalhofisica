@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
         </div>
     </nav>
     <div class="container">
-        <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <label for="">Calculo para achar o trabalho:</label>
             <div class="row">
                 <div class="col">
@@ -58,7 +58,7 @@ if (isset($_POST['submit'])) {
             <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
 
-        <label for="resultadp">Resultado:</label>
+        <label for="resultado">Resultado: </label>
         <?php if (isset($rendimento)){
            echo $rendimento = calcularRendimento($Qq, $Qf);
             } ?>
