@@ -1,5 +1,16 @@
 <?php
+
+function calcularRendimento()
+{
     $Qq = $_POST['Qq'];
+    $Qf = $_POST['Qf'];
+
+    $rendimento = (($Qq-$Qf)/ $Qq)*100;
+
+
+}
+
+
 ?>
 
 <!DOCTYPE html>
@@ -39,8 +50,12 @@
                     <input type="text" class="form-control" name="Qf" placeholder="Fonte fria">
                 </div>
             </div>
+            <br>
             <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
+
+        <label for="resultadp">Resultado:</label>
+        <?php echo $rendimento?>
     </div>
 </body>
 
