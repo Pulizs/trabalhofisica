@@ -1,6 +1,5 @@
 <?php
 
-if (isset($_POST['submit'])) {
     $Qq = $_POST['Qq'];
     $Qf = $_POST['Qf'];
 
@@ -12,6 +11,5 @@ if (isset($_POST['submit'])) {
 
     $rendimento = calcularRendimento($Qq, $Qf);
     echo $rendimento;
-}
 
 ?>
