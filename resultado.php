@@ -5,7 +5,7 @@
 
     function calcularRendimento($qq, $qf)
     {
-        $rendimento = (($qq - $qf) / $qq) * 100;
+        $rendimento = $qf/$qq;
         return $rendimento;
     }
 
