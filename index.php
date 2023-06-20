@@ -58,10 +58,10 @@ if (isset($_POST['submit'])) {
             <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
 
-        <label for="resultado">Resultado: </label>
-        <?php if (isset($rendimento)){
-           echo $rendimento;
-            } ?>
+        <?php if (isset($rendimento)) { ?>
+        <h2>Rendimento Calculado:</h2>
+        <p>O rendimento da máquina térmica é: <?php echo $rendimento; ?>%</p>
+    <?php } ?>
     </div>
 </body>
 
