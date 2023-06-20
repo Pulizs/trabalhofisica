@@ -1,13 +1,20 @@
 <?php
 
-function calcularRendimento()
-{
+if (isset($_POST['submit'])) {
     $Qq = $_POST['Qq'];
     $Qf = $_POST['Qf'];
 
-    $rendimento = (($Qq-$Qf)/ $Qq)*100;
-    echo $rendimento;
+    function calcularRendimento($qq, $qf)
+    {
+        $rendimento = (($qq - $qf) / $qq) * 100;
+        return $rendimento;
+    }
 
+     $rendimento = calcularRendimento($Qq, $Qf);
+}
+
+function calcularRendimento()
+{
 }
 
 
@@ -55,7 +62,7 @@ function calcularRendimento()
         </form>
 
         <label for="resultadp">Resultado:</label>
-        <?php  calcularRendimento()?>
+        <?php echo $rendimento ?>
     </div>
 </body>
 
