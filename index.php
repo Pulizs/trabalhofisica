@@ -25,7 +25,17 @@
         </div>
     </nav>
     <div class="container">
-
+        <form action="">
+            <label for="">Calculo para achar o trabalho:</label>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Fonte quente">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Fonte fria">
+                </div>
+            </div>
+        </form>
     </div>
 </body>
 
