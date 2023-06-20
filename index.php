@@ -28,7 +28,7 @@
     </nav>
     <div class="container">
         <form method="post" action="./resultado.php">
-            <label for="">Calculo para achar o trabalho:</label>
+            <label for="">Calculo para achar o rendimento:</label>
             <div class="row">
                 <div class="col">
                     <input type="text" class="form-control" name="Qq" placeholder="Fonte quente">
