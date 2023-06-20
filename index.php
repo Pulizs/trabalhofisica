@@ -1,3 +1,7 @@
+<?php
+    $Qq = $_POST['Qq'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,16 +29,17 @@
         </div>
     </nav>
     <div class="container">
-        <form action="">
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <label for="">Calculo para achar o trabalho:</label>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Fonte quente">
+                    <input type="text" class="form-control" name="Qq" placeholder="Fonte quente">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" placeholder="Fonte fria">
+                    <input type="text" class="form-control" name="Qf" placeholder="Fonte fria">
                 </div>
             </div>
+            <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
     </div>
 </body>
