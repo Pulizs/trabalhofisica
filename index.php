@@ -19,6 +19,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="#">Calor latente</a>
+                <a class="nav-item nav-link" href="#">Formula</a>
+                <a class="nav-item nav-link" href="#">Sobre</a>
             </div>
         </div>
     </nav>
