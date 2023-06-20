@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
         </div>
     </nav>
     <div class="container">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+        <form method="post" action="./resultado.php">
             <label for="">Calculo para achar o trabalho:</label>
             <div class="row">
                 <div class="col">
@@ -57,11 +57,6 @@ if (isset($_POST['submit'])) {
             <br>
             <button type="submit" class="btn btn-primary">Calcular</button>
         </form>
-
-        <?php if (isset($rendimento)) { ?>
-        <h2>Rendimento Calculado:</h2>
-        <p>O rendimento da máquina térmica é: <?php echo $rendimento; ?>%</p>
-    <?php } ?>
     </div>
 </body>
 
