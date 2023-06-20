@@ -13,9 +13,6 @@ if (isset($_POST['submit'])) {
      $rendimento = calcularRendimento($Qq, $Qf);
 }
 
-function calcularRendimento()
-{
-}
 
 
 ?>
@@ -62,7 +59,9 @@ function calcularRendimento()
         </form>
 
         <label for="resultadp">Resultado:</label>
-        <?php echo $rendimento ?>
+        <?php if (isset($rendimento)){
+            echo $rendimento;
+            } ?>
     </div>
 </body>
 
