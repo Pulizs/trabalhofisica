@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
         return $rendimento;
     }
 
-     $rendimento = calcularRendimento($Qq, $Qf);
+    echo $rendimento = calcularRendimento($Qq, $Qf);
 }
 
 
