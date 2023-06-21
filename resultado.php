@@ -42,10 +42,11 @@ $rendimento = calcularRendimento($Qq, $Qf);
         </div>
     </nav>
     <div class="container">
-            <h2>O rendimeto é: </h2>
-            <?php $rendimento . "%"; ?>
-            <a class="btn btn-primary" href="http://localhost/trabalhofisica/calorlatente/calorLatente.php" role="button">Voltar</a>
-        </div>
+        <br>
+        <h2>O rendimeto é: <?php echo $rendimento . "%"; ?></h2>
+        <br>
+        <a class="btn btn-primary" href="http://localhost/trabalhofisica/index.php" role="button">Voltar</a>
+    </div>
 </body>
 
 </html>
