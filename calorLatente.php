@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/bootstrap.min.css">
-    <title>Rendimento</title>
+    <title>Calor Latente</title>
 </head>
 
 <body>
@@ -18,9 +18,9 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/calorLatente.php">Calor latente</a>
-                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/formula.html">Formula</a>
-                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/sobre.html">Sobre</a>
+                <a class="nav-item nav-link" href="#">Calor latente</a>
+                <a class="nav-item nav-link" href="#">Formula</a>
+                <a class="nav-item nav-link" href="#">Sobre</a>
             </div>
         </div>
     </nav>
@@ -29,10 +29,10 @@
             <label for="">Calculo para achar o rendimento:</label>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" name="massa" placeholder="Massa">
+                    <input type="text" class="form-control" name="Qq" placeholder="Fonte quente">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" name="calorEspecifico" placeholder="Calor Específico">
+                    <input type="text" class="form-control" name="Qf" placeholder="Fonte fria">
                 </div>
             </div>
             <br>
