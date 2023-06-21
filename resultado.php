@@ -20,7 +20,7 @@ $rendimento = calcularRendimento($Qq, $Qf);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
     <title>Resultado</title>
 </head>
 
@@ -40,12 +40,12 @@ $rendimento = calcularRendimento($Qq, $Qf);
                 <a class="nav-item nav-link" href="http://localhost/trabalhofisica/sobre/sobre.html">Sobre</a>
             </div>
         </div>
-        <div class="container">
+    </nav>
+    <div class="container">
             <h2>O rendimeto é: </h2>
             <?php $rendimento . "%"; ?>
-            <button type="button" href="http://localhost/trabalhofisica/calorlatente/calorLatente.php" class="btn btn-primary">Voltar</button>
+            <a class="btn btn-primary" href="http://localhost/trabalhofisica/calorlatente/calorLatente.php" role="button">Voltar</a>
         </div>
-    </nav>
 </body>
 
 </html>
