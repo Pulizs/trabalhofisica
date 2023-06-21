@@ -18,21 +18,21 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#">Calor latente</a>
-                <a class="nav-item nav-link" href="#">Formula</a>
-                <a class="nav-item nav-link" href="#">Sobre</a>
+                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/calorlatente/calorLatente.php">Calor latente</a>
+                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/formula/formula.php">Formula</a>
+                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/sobre/sobre.php">Sobre</a>
             </div>
         </div>
     </nav>
     <div class="container">
         <form method="post" action="./resultado.php">
-            <label for="">Calculo para achar o rendimento:</label>
+            <label for="">Calculo para achar o calor latente de uma fusão:</label>
             <div class="row">
                 <div class="col">
-                    <input type="text" class="form-control" name="Qq" placeholder="Fonte quente">
+                    <input type="text" class="form-control" name="massa" placeholder="Massa">
                 </div>
                 <div class="col">
-                    <input type="text" class="form-control" name="Qf" placeholder="Fonte fria">
+                    <input type="text" class="form-control" name="Qe" placeholder="Calor Específico">
                 </div>
             </div>
             <br>

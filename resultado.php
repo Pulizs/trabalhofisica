@@ -11,7 +11,6 @@
     }
 
     $rendimento = calcularRendimento($Qq, $Qf);
-    echo $rendimento;
-    echo "%";
+    echo "O rendimento é: " . $rendimento . "%";
 
 ?>
