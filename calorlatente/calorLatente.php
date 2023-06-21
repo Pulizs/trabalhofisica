@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/bootstrap.min.css">
     <title>Calor Latente</title>
 </head>
 
@@ -19,8 +19,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link" href="http://localhost/trabalhofisica/calorlatente/calorLatente.php">Calor latente</a>
-                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/formula/formula.php">Formula</a>
-                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/sobre/sobre.php">Sobre</a>
+                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/formula/formula.html">Formula</a>
+                <a class="nav-item nav-link" href="http://localhost/trabalhofisica/sobre/sobre.html">Sobre</a>
             </div>
         </div>
     </nav>
