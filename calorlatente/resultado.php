@@ -7,5 +7,6 @@
         return $calorLatente;
     }
 
+    $calorLatente = calcularFusao($massa, $calorEspecifico);
     echo "O calor latente desta fusão é: " . $calorLatente . "J";
 ?>
