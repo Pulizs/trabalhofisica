@@ -39,7 +39,7 @@
     </nav>
     <div class="container">
         <br>
-        <h2>O calor latente é: <?php echo $calorLatente . "%"; ?></h2>
+        <h2>O calor latente é: <?php echo $calorLatente . "J"; ?></h2>
         <br>
         <a class="btn btn-primary" href="http://localhost/trabalhofisica/calorlatente/calorLatente.php" role="button">Voltar</a>
     </div>
